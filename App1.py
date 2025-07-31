@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # Load model
-model = joblib.load(r"C:\\Users\\user\\Downloads\\best_xgb_model_for_deployment.pkl")
+model = joblib.load("best_xgb_model_for_deployment.pkl")
 
 # Define columns
 feature_columns = ['satisfaction_level', 'last_evaluation', 'number_project',
