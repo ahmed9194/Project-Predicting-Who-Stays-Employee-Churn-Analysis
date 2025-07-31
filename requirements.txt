@@ -1,4 +1,5 @@
 streamlit
+streamlit-option-menu
 joblib
 xgboost
 numpy
@@ -7,4 +8,3 @@ scikit-learn
 shap
 matplotlib
 ipython
-streamlit-option-menu
